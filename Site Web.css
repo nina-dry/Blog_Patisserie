@@ -1,0 +1,217 @@
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    background-color : #ffe5ed;
+}
+h1{
+    color:goldenrod ;
+}
+/*------------LOGO----------------------*/
+.logo p {
+    font-size : 175%;
+    text-align: center;
+    color: goldenrod;
+    font-style: italic;
+    font-weight: bold;
+}
+.logo img {
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+div#logo-header {
+    text-align: center;  
+}
+
+/*------------BANDEAU DE NAV----------------------*/
+.bandeau ul{
+    list-style-type: none;
+    margin: 1;
+    padding: 1;
+    overflow: hidden;
+    background-color: #333;
+}
+.bandeau li {
+    float: left;  
+}
+.bandeau li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.bandeau li a:hover {
+    background-color: goldenrod
+}
+
+/*------------PAGE : MENU----------------------*/
+.menu h2{
+    color: goldenrod;
+    text-align: center;
+}
+.menu img {
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.menu hr{
+    height: 1px;
+    background-color: orchid;
+    border: none;
+}
+.menu{
+    text-align: center;
+}
+
+
+/*------------PAGE : PHOTOS----------------------*/
+.photos {
+    display: block;
+    float:  left;
+    width: 25%;
+    text-align: center;
+    color: black;
+    font-size: large;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.text_photo h1{
+    clear: both;
+}
+
+/*------------PAGE : RECETTES----------------------*/
+.recettes {
+        float:  left;
+        width: 25%;
+        text-align: center;
+        color: black;
+        font-size: large;
+        margin-left: 5%;
+}
+.recettes :hover img{
+    opacity: 0.5;
+}
+
+.recettes1 h1,
+.recettes2 h1,
+.recettes3 h1{
+    text-align: center;
+}
+.recettes1 img,
+.recettes2 img,
+.recettes3 img{
+    margin-left: 42%;
+}
+.recettes1 span,
+.recettes2 span,
+.recettes3 span{
+    text-align: center;
+}
+.recettes1 h2,
+.recettes2 h2,
+.recettes3 h2{
+    margin-left: 10px ;
+    color: palevioletred;
+}
+.recettes1 hr,
+.recettes2 hr,
+.recettes3 hr{
+    height: 1px;
+    background-color: goldenrod;
+    border: none;
+}
+.recettes4 h1{
+    margin-left: 50px; 
+}
+/*------------PAGE : RECETTES 1 & 2----------------------*/
+
+.ingredientsR1,
+.ingredientsR2{
+    float:left;
+    display: block;
+    width: 20%;
+    text-align: left;
+    color: black;
+    font-size: large;
+    margin-right: 10px;
+    margin-left: 10px;   
+} 
+.preparationR1,
+.preparationR2{
+    clear:both;    
+}
+.preparationR1 h3,
+.preparationR2 h3{
+    margin-left: 50px;  
+}
+
+/*------------PAGE : CONSEILS----------------------*/
+.conseils h1{
+    margin-left: 50px; 
+}
+.conseils span{
+    color: red;
+}
+
+
+/*------------PAGE : MATERIEL----------------------*/
+.materiel1 h1{
+    margin-left: 50px; 
+}
+.materiel2 img {
+    vertical-align: middle;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.materiel2 span{
+    font-weight: bolder;
+}
+.materiel2{
+-webkit-column-count: 2;
+-moz-column-count: 2;
+column-count: 2;
+column-rule: 2px solid black;
+}
+
+/*------------PAGE : AVIS----------------------*/
+.avis span{
+    color : gray
+}
+.avis span1{
+    color :gray;
+    font-size: 15px;
+}
+.avis h1{
+    margin-left: 50px; 
+}
+table{
+    margin-left: 25px;
+    text-align: center;
+    border-collapse:collapse;
+    width:90%;    
+}
+table th, table td {
+    border: solid 1px;
+    color: black;
+}
+.avis p{
+    color: gold;
+    font-size: 30px;
+    text-align: center;
+}
+.couleur{
+    font-size: 22px;
+    color: gold;
+    border-color: black;
+}
+
+/*------------PIED DE PAGE----------------------*/
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+    background-color: #333;
+    color: white;
+    text-align: center;
+    overflow: hidden;     
+}
